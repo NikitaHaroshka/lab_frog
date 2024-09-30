@@ -12,8 +12,13 @@ int main()
             return 0;
         }
     }
-    if (n <= 2) {
+    if (n == 2) {
         cout << "-1";
+        return 0;
+    }
+    if (n == 1) {
+        cout << A[0];
+        cout << "1";
         return 0;
     }
 
